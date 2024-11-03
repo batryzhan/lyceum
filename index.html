@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tinos:wght@700&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Қызылорда ұлдар БИЛ</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="https://static.tildacdn.pro/tild6235-3666-4062-b130-616164353363/__2024-01-13__133745.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bxs-x-circle' onclick="HideMenu()"></i>
+                <ul>
+                    <li><a href="">Басты бет</a></li>
+                    <li><a href="">Лицей туралы</a></li>
+                    <li><a href="">Оқу-тәрбие процесі</a></li>
+                    <li><a href="">Тарихы</a></li>
+                    <li><a href="">Байланыс</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="ShowMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>"Білім-Инновация" лицей-интернаты</h1>
+            <p>Қызылорда облысының білім басқармасының
+                Сейілбек Шаухаманов атындағы <br> №9 дарынды балаларға арналған облыстық
+                "Білім-инновация" лицей-интернаты</p>
+                <a href="" class="hero-btn">Толығырақ білу үшін батырманы басыңыз</a>
+        </div>
+    </section>
+
+    <section class="miss">
+        <h1>Біздің міндетіміз</h1>
+        <p>Заман талабына сай білім беріп, шығармашылық тұлға қалыптастыру.</p>
+
+        <div class="row">
+            <div class="miss-col">
+                <h3>Заман талабына сай білім</h3>
+                <p>Заман талабына сәйкес сапалы білім беруді мақсат етеді, 
+                    оқушылардың шығармашылық және ғылыми әлеуетін дамытуға бағытталған. Лицейдегі оқу 
+                     процесі инновациялық әдістерді қолдану арқылы жүзеге асырылады.</p>
+            </div>
+            <div class="miss-col">
+                <h3>Шығармашылық және жауапкершілік</h3>
+                <p>Оқушыларды сыни ойлауға, өз бетімен жұмыс істеуге және қоғамдық 
+                    жауапкершілікке тәрбиелеу. Мұнда әр оқушының жеке қабілеттері мен мүдделері 
+                    ескеріледі, шығармашылық әлеуеті жүзеге асырылады.</p>
+            </div>
+            <div class="miss-col">
+                <h3>Заманауи технологиялар</h3>
+                <p>Білім беру процесі жаңартылған бағдарламалар мен заманауи 
+                    технологиялар негізінде жүргізіледі. Оқушылар теориялық біліммен қатар практикалық
+                    дағдыларды да игеріп, инновациялық жобаларға қатысады.</p>
+            </div>
+        </div>
+    </section>
+    
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function ShowMenu(){
+        navLinks.style.right = "0";
+    }
+    function HideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
