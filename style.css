@@ -9,7 +9,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('https://static.tildacdn.pro/tild3364-3730-4933-b632-626165366434/2960a12c-3de0-4b73-b.png');
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(photos/backround.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -23,7 +23,7 @@ nav{
 }
 
 nav img{
-    width: 150px;
+    width: 125px;
 }
 
 .nav-links{
@@ -104,6 +104,10 @@ nav .bx{
 }
 
 @media(max-width: 700px){
+    .nav img{
+        width: 50px;
+    }
+    
     .text-box h1{
         font-size: 20px;
     }
@@ -336,28 +340,143 @@ h3{
     }
 }
 
-.about-us {
+.c-name {
     width: 100%;
     text-align: center;
     padding: 20px;
 }
 
-.about-us h4 {
-    margin-bottom: 25px;
+.c-name h4 {
+    margin-bottom: 20px;
     margin-top: 20px;
-    padding: 30px 0;
-}
-
-.about-us p {
-    color: #777;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
+    padding: 5px 0;
 }
 
 .icons .bx{
     color: #f44336;
     margin: 0 13px;
     cursor: pointer;
+}
+
+.sub-header {
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('photos/background.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.director {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+.director-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.director-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.director-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+}
+
+.director-role {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.director-name {
+    font-size: 36px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.director-quote {
+    font-size: 18px;
+    font-style: italic;
+    color: #555;
+    line-height: 1.5;
+}
+
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.location iframe{
+    width: 100%;
+}
+
+.contact-us {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.contact-col {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-item i {
+    font-size: 24px;
+    color: #333;
+    margin-right: 15px;
+}
+
+.contact-item h5 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.contact-item p {
+    margin: 5px 0 0;
+    color: #666;
+}
+
+.contact-col div .bx{
+    font-size: 28px;
+    color: #f44336;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.contact-col div p{
+    padding: 0;
+}
+
+.contact-col div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
 }
