@@ -70,28 +70,36 @@
     
     <section class="cta">
         <h1>Лицей жаңалықтарын көргіңіз келсе немесе лицей <br> ұжымымен танысқыңыз келсе батырманы басыңыз</h1>
-        <a href="#" class="hero-btn">Лицей жаңалықтары</a>
+        <a href="news.html" class="hero-btn">Лицей жаңалықтары</a>
     </section>
     
 
     <section class="c-name">
-        <h4>© 2024 С. Шаухаманов атындағы Қызылорда "Білім-инновация" ұлдар лицейі</h4>
+        <h4>© 2024 С. Шаухаманов атындағы Қызылорда "Білім-Инновация" ұлдар лицейі</h4>
         <div class="icons">
+        <a href="https://www.instagram.com/bil.qyzylorda/">
             <i class='bx bxl-instagram'></i>
-            <i class='bx bxl-facebook-square'></i>
-            <i class='bx bxl-telegram'></i>
-            <i class='bx bxl-whatsapp'></i>
+        </a>
+
+        <a href="https://www.facebook.com/bil.qyzylorda/">
+            <i class='bx bxl-facebook-square' ></i>
+        </a>
+
+        <a href="https://t.me/bilnine">
+            <i class='bx bxl-telegram' ></i>
+        </a>
         </div>
     </section>
 <script>
 
-    var navLinks = document.getElementById("navLinks");
-    function ShowMenu(){
-        navLinks.style.right = "0";
+    function ShowMenu() {
+        document.getElementById("navLinks").classList.add("active"); // Slide in
     }
-    function HideMenu(){
-        navLinks.style.right = "-200px";
+
+    function HideMenu() {
+        document.getElementById("navLinks").classList.remove("active"); // Slide out
     }
+
 
 </script>
 
