@@ -14,7 +14,7 @@
     <title>Қызылорда ұлдар БИЛ</title>
 </head>
 <body>
-    <section class="sub-header1">
+    <section class="sub-header2">
         <nav>
             <a href="index.html"><img src="photos/logo.png"></a>
             <div class="nav-links" id="navLinks">
@@ -31,25 +31,79 @@
         </nav>
         <h1>Оқу-тәрбие процесі</h1>
     </section>
-        
+
+    <section class="miss">
+        <h1>Оқу бағдарламасы</h1>
+        <p>Лицей жаратылыстану, математика және инженерия бағытында терең білім береді.</p>
+        <div class="row">
+            <div class="miss-col">
+                <h3>Білім беру үдерісі</h3>
+                <p>Лицейде білім беру үдерісі Қазақстан Республикасының Білім және ғылым министрлігі бекіткен орта білім беру мемлекеттік жалпыға міндетті бағдарламасы негізінде ұйымдастырылады.</p>
+
+            </div>
+            <div class="miss-col">
+                <h3>"БІЛІМ ИННОВАЦИЯ" қорының жоспары</h3>
+                <p>"БІЛІМ ИННОВАЦИЯ" қоры әзірлеген оқу жоспары Мекеме басшысы тарапынан бекітіліп, лицейде жүзеге асырылады. Бұл жоспар оқушылардың сапалы білім алуын қамтамасыз етеді.</p>
+
+            </div>
+            <div class="miss-col">
+                <h3>Оқыту тілі</h3>
+                <p>Лицейде оқыту мемлекеттік және ағылшын тілдерінде жүргізіледі. Бұл тілдік білімді дамытуға, оқушылардың халықаралық деңгейде білім алуына жағдай жасайды.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="miss">
+        <h1>Құндылықтарға Негізделген Білім Беру</h1>
+        <p>Бұл бағдарлама арқылы лицейде құндылықтарды дәріптеп, оқу-тәрбие үдерісіне енгізуге бағытталған шаралар жүзеге асырылады.</p>
+        <div class="row">
+            <div class="miss-col-alt">
+                <h3>Білім беру үдерісі</h3>
+                <p>Лицейде білім беру үдерісі Қазақстан Республикасының Білім және ғылым министрлігі бекіткен орта білім беру мемлекеттік жалпыға міндетті бағдарламасы негізінде ұйымдастырылады.</p>
+            </div>
+            <div class="miss-col-alt">
+                <h3>Ұйымдастыру тобының құрылуы</h3>
+                <p>Әр оқу жылында бағдарлама аясында қолға алынатын құндылықтар таңдалып, олардың әрқайсысы кемінде бір ай дәріптеледі. Таңдау барлық қызметкерлер, білім алушылар мен ата-аналардың пікірін ескеру арқылы жасалады.</p>
+            </div>
+            <div class="miss-col-alt">
+                <h3>Құндылықтарды оқу үдерісіне енгізу</h3>
+                <p>Ұйымдастырушы топ құндылықтарды оқу-тәрбие бағдарламаларына енгізеді. Оқу жоспарларында, тәрбиелік шараларда, пәндік бірлестіктерде, ұжымдық және ата-аналармен шараларда құндылықтар қамтылады.</p>
+            </div>
+        </div>
+    </section>
+
+
+
     <section class="c-name">
-        <h4>© 2024 С. Шаухаманов атындағы Қызылорда "Білім-инновация" ұлдар лицейі</h4>
+        <h4>© 2024 С. Шаухаманов атындағы Қызылорда "Білім-Инновация" ұлдар лицейі</h4>
         <div class="icons">
-            <i class='bx bxl-instagram'></i>
-            <i class='bx bxl-facebook-square'></i>
-            <i class='bx bxl-telegram'></i>
-            <i class='bx bxl-whatsapp'></i>
+            <a href="https://www.instagram.com/bil.qyzylorda/">
+                <i class='bx bxl-instagram'></i>
+            </a>
+
+            <a href="https://www.facebook.com/bil.qyzylorda/">
+                <i class='bx bxl-facebook-square' ></i>
+            </a>
+
+            <a href="https://t.me/bilnine">
+                <i class='bx bxl-telegram' ></i>
+            </a>
+
         </div>
     </section>
 <script>
 
-    var navLinks = document.getElementById("navLinks");
-    function ShowMenu(){
-        navLinks.style.right = "0";
+    function ShowMenu() {
+        document.getElementById("navLinks").classList.add("active"); // Slide in
     }
-    function HideMenu(){
-        navLinks.style.right = "-200px";
+
+    function HideMenu() {
+        document.getElementById("navLinks").classList.remove("active"); // Slide out
     }
+
 
 </script>
 
