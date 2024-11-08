@@ -9,46 +9,86 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <title>Қызылорда ұлдар БИЛ</title>
 </head>
 <body>
-    <section class="sub-header1">
-        <nav>
-            <a href="index.html"><img src="photos/logo.png"></a>
-            <div class="nav-links" id="navLinks">
-                <i class='bx bxs-x-circle' onclick="HideMenu()"></i>
-                <ul>
-                    <li><a href="index.html">Басты бет</a></li>
-                    <li><a href="about.html">Лицей туралы</a></li>
-                    <li><a href="stded.html">Оқу-тәрбие процесі</a></li>
-                    <li><a href="news.html">Жаңалықтар</a></li>
-                    <li><a href="contact.html">Байланыс</a></li>
-                </ul>
+<section class="sub-header1">
+    <nav>
+        <a href="index.html"><img src="photos/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class='bx bxs-x-circle' onclick="HideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Басты бет</a></li>
+                <li><a href="about.html">Лицей туралы</a></li>
+                <li><a href="stded.html">Оқу-тәрбие процесі</a></li>
+                <li><a href="news.html">Жаңалықтар</a></li>
+                <li><a href="contact.html">Байланыс</a></li>
+            </ul>
+        </div>
+        <i class='bx bx-menu' onclick="ShowMenu()"></i>
+    </nav>
+    <h1>Лицей жаңалықтары</h1>
+</section>
+
+<section class="miss">
+    <h1>Лицей жаңалықтары</h1>
+    <p>Біздің лицейде жаңа бастамалар мен қызықты шаралар жиі өтеді. Оқушылар мен мұғалімдер белсенді қатысып, әрбір күнді ерекше етеді!"</p>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-us-text">
+                <h1>Кітап сыйлау акциясы</h1>
+                <p>Кітап – білімнің қайнар көзі, армандардың ұшқыны. Бір кітаппен өзгеге әлем сыйла, ақылдың кілтін бер. Бүгін сыйлаған кітабыңыз біреудің жаңа қиялының бастауы болсын!</p>
             </div>
-            <i class='bx bx-menu' onclick="ShowMenu()"></i>
-        </nav>
-        <h1>Жаңалықтар</h1>
-    </section>    
-    <section class="c-name">
-        <h4>© 2024 С. Шаухаманов атындағы Қызылорда "Білім-инновация" ұлдар лицейі</h4>
-        <div class="icons">
-            <i class='bx bxl-instagram'></i>
-            <i class='bx bxl-facebook-square'></i>
-            <i class='bx bxl-telegram'></i>
-            <i class='bx bxl-whatsapp'></i>
+            <div class="about-col">
+                <img src="photos/photo_5287374126476026810_y.jpg">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="about-us-text">
+                <h1>Педконсилиум</h1>
+                <p>Педконсилиум — мұғалімдер мен педагогтар жиналып, оқу процесі мен оқушылардың мәселелерін талқылайтын жиналыс.</p>
+            </div>
+            <div class="about-col">
+                <img src="photos/photo_5287374126476026813_y.jpg">
+            </div>
         </div>
     </section>
+
+
+
+    <section class="c-name">
+    <h4>© 2024 С. Шаухаманов атындағы Қызылорда "Білім-Инновация" ұлдар лицейі</h4>
+        <div class="icons">
+            <a href="https://www.instagram.com/bil.qyzylorda/">
+                <i class='bx bxl-instagram'></i>
+            </a>
+
+            <a href="https://www.facebook.com/bil.qyzylorda/">
+                <i class='bx bxl-facebook-square' ></i>
+            </a>
+
+            <a href="https://t.me/bilnine">
+                <i class='bx bxl-telegram' ></i>
+            </a>
+
+
+
+        </div>
+</section>
 <script>
 
-    var navLinks = document.getElementById("navLinks");
-    function ShowMenu(){
-        navLinks.style.right = "0";
+    function ShowMenu() {
+        document.getElementById("navLinks").classList.add("active"); // Slide in
     }
-    function HideMenu(){
-        navLinks.style.right = "-200px";
+
+    function HideMenu() {
+        document.getElementById("navLinks").classList.remove("active"); // Slide out
     }
+
 
 </script>
 
