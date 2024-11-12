@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Қызылорда ұлдар БИЛ</title>
+</head>
+<body>
+    <section class="sub-header3">
+        <nav>
+            <a href="index.html"><img src="photos/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bxs-x-circle' onclick="HideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="stded.html">Educational Process</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="ShowMenu()"></i>
+        </nav>
+    </section>
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.664101256562!2d65.52151067541048!3d44.78765287832528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41f7fe02713995fb%3A0x994e86a7afdcc0c8!2z0JrQsNC30LDRhdGB0LrQvi3RgtGD0YDQtdGG0LrQuNC5INC70LjRhtC10Lkg0LTQu9GPINGO0L3QvtGI0LXQuSDihJY5!5e0!3m2!1sru!2skz!4v1730910871787!5m2!1sru!2skz" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div class="contact-item">
+                    <i class='bx bx-home' ></i>
+                    <span>
+                        <h5>Kyzylorda City</h5>
+                        <p>Street Syltan Beibarys, 10</p>
+                    </span>
+                </div>
+                <div class="contact-item">
+                    <i class='bx bxs-phone'></i>
+                    <span>
+                        <h5>8(7242) 21-24-92</h5>
+                        <p>Monday-Saturday, 09:00 - 18:00</p>
+                    </span>
+                </div>
+                <div class="contact-item">
+                    <i class='bx bx-envelope'></i>
+                    <span>
+                        <h5>Email Contact</h5>
+                        <p>qyzylorda.er@bil.edu.kz</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h4>© 2024 S. Shaukhanov Kyzylorda "BILIM-Innovation" Boys' Lyceum</h4>
+
+            <div class="social-icons">
+                <a href="https://www.instagram.com/bil.qyzylorda/" target="_blank">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="https://www.facebook.com/bil.qyzylorda/" target="_blank">
+                    <i class='bx bxl-facebook-square'></i>
+                </a>
+                <a href="https://t.me/bilnine" target="_blank">
+                    <i class='bx bxl-telegram'></i>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        function ShowMenu() {
+            document.getElementById("navLinks").classList.add("active");
+        }
+
+        function HideMenu() {
+            document.getElementById("navLinks").classList.remove("active");
+        }
+    </script>
+
+</body>
+</html>

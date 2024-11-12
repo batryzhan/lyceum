@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Қызылорда ұлдар БИЛ</title>
+</head>
+<body>
+<section class="sub-header1">
+    <nav>
+        <a href="index.html"><img src="photos/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class='bx bxs-x-circle' onclick="HideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="stded.html">Educational Process</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class='bx bx-menu' onclick="ShowMenu()"></i>
+    </nav>
+</section>
+
+<section class="miss">
+    <h1 class="headline">Lyceum News</h1>
+    <p class="intro">Our lyceum frequently hosts new initiatives and exciting events. Students and teachers actively participate, making each day special!</p>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-us-text">
+                <h2 class="event-title">Book Donation Campaign</h2>
+                <p class="event-description">
+                    A book is the source of knowledge, a spark of dreams. With one book, gift the world to someone else, and give them the key to wisdom. May the book you donate today be the start of someone else's new imagination!
+                    <br><br>
+                    This event will be from 4 to 28 November.
+                </p>
+            </div>
+            <div class="about-col">
+                <img src="photos/photo_5287374126476026810_y.jpg" alt="Book Donation Campaign">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="about-us-text">
+                <h2 class="event-title">Pedagogical Council</h2>
+                <p class="event-description">
+                    The Pedagogical Council is a meeting where teachers and educators gather to discuss the educational process and student-related issues.
+                    <br><br>
+                    This event will be November 16, 12:00 - 14:00.
+                </p>
+            </div>
+            <div class="about-col">
+                <img src="photos/photo_5287374126476026813_y.jpg" alt="Pedagogical Council">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="about-us-text">
+                <h2 class="event-title">Feel the Responsibility</h2>
+                <p class="event-description">
+                    To win a prize, you need to earn 10 points three times.
+                    <br><br>
+                    This event will be from 18 to 22 November.
+                </p>
+            </div>
+            <div class="about-col">
+                <img src="photos/photo_5287374126476026811_y.jpg" alt="Feel the Responsibility">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="about-us-text">
+                <h2 class="event-title">The Hero of Justice</h2>
+                <p class="event-description">
+                    Introduce us to the individuals who have greatly contributed to global justice and equality.
+                    <br><br>
+                    This event will be November 14 in the Act Hall.
+                </p>
+            </div>
+            <div class="about-col">
+                <img src="photos/photo_5287374126476026812_y.jpg" alt="The Hero of Justice">
+            </div>
+        </div>
+    </section>
+</section>
+
+
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h4>© 2024 S. Shaukhanov Kyzylorda "BILIM-Innovation" Boys' Lyceum</h4>
+
+            <div class="social-icons">
+                <a href="https://www.instagram.com/bil.qyzylorda/" target="_blank">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="https://www.facebook.com/bil.qyzylorda/" target="_blank">
+                    <i class='bx bxl-facebook-square'></i>
+                </a>
+                <a href="https://t.me/bilnine" target="_blank">
+                    <i class='bx bxl-telegram'></i>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        function ShowMenu() {
+            document.getElementById("navLinks").classList.add("active");
+        }
+
+        function HideMenu() {
+            document.getElementById("navLinks").classList.remove("active");
+        }
+    </script>
+
+</body>
+</html>

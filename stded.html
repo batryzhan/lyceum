@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Қызылорда ұлдар БИЛ</title>
+</head>
+<body>
+    <section class="sub-header2">
+        <nav>
+            <a href="index.html"><img src="photos/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bxs-x-circle' onclick="HideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="stded.html">Educational Process</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="ShowMenu()"></i>
+        </nav>
+    </section>
+
+    <section class="edu">
+        <h1>Educational Program</h1>
+        <p>The lyceum provides deep knowledge in the fields of natural sciences, mathematics, and engineering.</p>
+        <div class="row">
+            <div class="edu-col">
+                <h3>Educational Process</h3>
+                <p>The educational process at the lyceum is organized based on the state compulsory educational program approved by the Ministry of Education and Science of the Republic of Kazakhstan.</p>
+            </div>
+            <div class="edu-col">
+                <h3>"Bilim Innovation" Foundation's Plan</h3>
+                <p>The educational plan developed by the "Bilim Innovation" Foundation is approved by the Head of the Institution and implemented at the lyceum. This plan ensures that students receive a quality education.</p>
+            </div>
+            <div class="edu-col">
+                <h3>Language of Instruction</h3>
+                <p>The lyceum offers instruction in both the state language and English. This helps develop language skills and provides opportunities for students to receive education at an international level.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="edu1">
+        <h1>Value-Based Education</h1>
+        <p>This program implements measures to instill values within the lyceum and integrate them into the educational process.</p>
+        <div class="row">
+            <div class="edu-col1">
+                <h3>Educational Process</h3>
+                <p>The educational process at the lyceum is organized based on the state compulsory educational program approved by the Ministry of Education and Science of the Republic of Kazakhstan.</p>
+            </div>
+            <div class="edu-col1">
+                <h3>Formation of the Organizational Group</h3>
+                <p>Each academic year, values to be promoted within the program are selected, with each value emphasized for at least one month. The selection considers the opinions of all staff, students, and parents.</p>
+            </div>
+            <div class="edu-col1">
+                <h3>Integrating Values into the Learning Process</h3>
+                <p>The organizational group incorporates values into educational programs. Values are included in lesson plans, extracurricular activities, subject associations, group activities, and events with parents.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h4>© 2024 S. Shaukhanov Kyzylorda "BILIM-Innovation" Boys' Lyceum</h4>
+
+            <div class="social-icons">
+                <a href="https://www.instagram.com/bil.qyzylorda/">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="https://www.facebook.com/bil.qyzylorda/" target="_blank">
+                    <i class='bx bxl-facebook-square'></i>
+                </a>
+                <a href="https://t.me/bilnine" target="_blank">
+                    <i class='bx bxl-telegram'></i>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        function ShowMenu() {
+            document.getElementById("navLinks").classList.add("active");
+        }
+
+        function HideMenu() {
+            document.getElementById("navLinks").classList.remove("active");
+        }
+    </script>
+
+</body>
+</html>
