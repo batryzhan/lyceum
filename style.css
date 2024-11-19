@@ -337,7 +337,7 @@ h3{
     margin: 100px auto;
     width: 80%;
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-    url('https://assets-homepages-learning.3plearning.net/wp-content/uploads/2019/08/blog-setting-lesson-goals.png');
+    url('photos/IMG_7169.PNG');
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -941,5 +941,223 @@ h3{
 
     .teacher-card h4 {
         font-size: 12px;
+    }
+}
+
+.medalists-highlight {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f0f4f8;
+}
+
+.medalists-highlight h1 {
+    font-size: 2.8em;
+    color: #2d3436;
+    margin-bottom: 10px;
+}
+
+.medalists-highlight p {
+    font-size: 1.2em;
+    color: #636e72;
+    margin-bottom: 40px;
+}
+
+.highlight-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.highlight-card {
+    display: flex;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.highlight-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+    flex: 1;
+    padding: 30px;
+    text-align: left;
+}
+
+.card-content h2 {
+    font-size: 1.8em;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.card-content p {
+    font-size: 1em;
+    color: #636e72;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.card-content ul {
+    list-style-type: square;
+    padding-left: 20px;
+    color: #34495e;
+}
+
+.card-content li {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.card-image {
+    flex: 0.5;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 15px 15px 0;
+}
+
+.highlight-card:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+    .highlight-card {
+        flex-direction: column;
+    }
+
+    .card-image img {
+        border-radius: 15px 15px 0 0;
+    }
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: block;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* How to Join Section */
+.join {
+    width: 80%;
+    margin: 50px auto; /* Center the section and add spacing */
+    text-align: center;
+    background: #ffffff; /* Light blue background for contrast */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px 15px; /* Add padding inside */
+
+}
+
+.join h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #444; /* Darker text for contrast */
+    margin-bottom: 15px;
+}
+
+.join p {
+    font-size: 16px;
+    color: #555; /* Gray text for readability */
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.join a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff; /* White text */
+    background: #f6824a; /* Green button */
+    text-decoration: none;
+}
+
+
+.edu2 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.edu2 h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.edu2 p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edu-col2{
+    flex-basis: 31%;
+    background: #fdc9b0;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.hero-btn1 {
+    display: inline-block;
+    padding: 12px 25px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.hero-btn1:hover {
+    transform: scale(1.05);
+    background-color: #000000;
+    color: #fff;
+}
+
+.hero-btn1:active {
+    transform: scale(1.02);
+    background-color: #000000;
+}
+
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.edu-col2:hover{
+    box-shadow: 0 0 30px 0px rgba(0,0,0,0.2);
+}
+
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
     }
 }
