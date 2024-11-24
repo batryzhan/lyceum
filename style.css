@@ -9,7 +9,7 @@
 .header{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("photos/backround.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("photos/backround.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -64,7 +64,7 @@ nav img{
     content: '';
     width: 0;
     height: 2px;
-    background: #f44336;
+    background: rgba(201, 178, 145, 1);
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -96,6 +96,7 @@ nav img{
 
 .text-box h1 {
     font-size: 62px;
+    color:rgba(201, 178, 145, 1);
 }
 
 .text-box p {
@@ -117,13 +118,13 @@ nav img{
 
 .hero-btn:hover {
     transform: scale(1.05);
-    background-color: #f44336;
+    background-color: rgba(201, 178, 145, 1);
     color: #fff;
 }
 
 .hero-btn:active {
     transform: scale(1.02);
-    background-color: #d32f2f;
+    background-color: rgba(201, 178, 145, 1);
 }
 
 nav .bx{
@@ -134,10 +135,9 @@ nav .bx{
         font-size: 20px;
     }
 
-    /* Initial hidden state: positioned off-screen */
     .nav-links {
         position: fixed;
-        background: #f44336;
+        background: rgba(201, 178, 145, 1);
         height: 100vh;
         width: 200px;
         top: 0;
@@ -1142,7 +1142,7 @@ h3{
 
 .hero-btn1:active {
     transform: scale(1.02);
-    background-color: #000000;
+    background-color: rgba(201, 178, 145, 1)
 }
 
 
